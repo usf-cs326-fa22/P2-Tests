@@ -3,7 +3,7 @@ source "${TEST_LIB}/funcs.bash"
 run_timeout=5
 
 script=$(cat <<EOM
-ls -1 / | sort -r
+ls -1 -- / | sort -r
 EOM
 )
 
